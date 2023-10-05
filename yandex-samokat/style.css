@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Yandex font";
+  src: url("https://yastatic.net/s3/home/fonts/ys/4/text-black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Yandex font";
+  src: url("https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Yandex font";
+  src: url("https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yandex font";
+}
+
+.btn-basic {
+  color: #21201F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 91.667% */
+  border-radius: 36px;
+  background: #FFDE40;
+  box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+  padding: 24px 48px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.btn-basic:hover {
+  cursor: pointer;
+}
+.btn-basic:active {
+  transform: scale(0.99);
+}
+
+.header {
+  padding: 124.94px 233.51px 124.94px 262px;
+  position: relative;
+  background-image: url("../../../yandex-samokat/assets/img/smkt00032.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  content: "";
+  opacity: 0.22;
+  background: var(--Linear, linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%));
+}
+
+.header__title {
+  color: #21201F;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 72px */
+  letter-spacing: -1.44px;
+  width: 420px;
+}
+
+.header__text {
+  width: 465px;
+  color: #21201F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 31.2px */
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.btn-basic {
+  color: #21201F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 91.667% */
+  border-radius: 36px;
+  background: #FFDE40;
+  box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+  padding: 24px 48px;
+  border: none;
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active{
+    transform: scale(0.99);
+  }
+}
